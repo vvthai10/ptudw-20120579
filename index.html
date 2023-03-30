@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="20120579.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid bg-primary">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary container">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-bootstrap"></i>
+            StartBootstrap
+          </a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Dropdown</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Action 1</a>
+                  <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main>
+      <div class="container my-3">
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="First slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="1"
+              aria-label="Second slide"
+            ></li>
+            <li
+              data-bs-target="#carouselId"
+              data-bs-slide-to="2"
+              aria-label="Third slide"
+            ></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img
+                src="./images/banner1.jpg"
+                class="w-100 d-block"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/banner2.jpg"
+                class="w-100 d-block"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/banner3.jpg"
+                class="w-100 d-block"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <div class="carousel-caption">
+            <a href="#" class="btn btn-primary">See more</a>
+          </div>
+        </div>
+      </div>
+      <div class="p-5 mb-4 bg-light rounded-3 container my-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+          <p class="col-md-12 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your liking.
+          </p>
+          <hr />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritail,
+            ad.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button">
+            Example button
+          </button>
+        </div>
+      </div>
+      <div class="container my-3" id="about">
+        <div class="row gap-3">
+          <div class="col bg-success text-white text-center p-3">
+            <i class="bi bi-file-earmark-person"></i>
+            <h3>About</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+              veritatis illum mollitia maiores dolorum, perferendis, doloremque
+              minima esse hic, placeat velit veniam inventore error cum rerum
+              dolores! At, mollitia aliquam?
+            </p>
+          </div>
+          <div class="col bg-danger text-white text-center p-3">
+            <i class="bi bi-shop"></i>
+            <h3>Working Place</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+              veritatis illum mollitia maiores dolorum, perferendis, doloremque
+              minima esse hic, placeat velit veniam inventore error cum rerum
+              dolores! At, mollitia aliquam?
+            </p>
+          </div>
+          <div class="col bg-warning text-white text-center p-3">
+            <i class="bi bi-credit-card-2-front"></i>
+            <h3>Payment</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi
+              veritatis illum mollitia maiores dolorum, perferendis, doloremque
+              minima esse hic, placeat velit veniam inventore error cum rerum
+              dolores! At, mollitia aliquam?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card container">
+        <div class="card-header text-center">
+          <h1>Working Information</h1>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col align-self-center">
+              <img src="./images/banner1.jpg" alt="img" class="img-thumbnail" />
+            </div>
+            <div class="col">
+              <h3>Special Treatment</h>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae modi quia praesentium veritatis repellat, quibusdam ea
+                possimus, natus suscipit excepturi eveniet alias? Reprehenderit
+                iste voluptatem, recusandae nemo velit unde earum. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Molestiae modi quia
+                praesentium veritatis repellat, quibusdam ea possimus, natus
+                suscipit excepturi eveniet alias? Reprehenderit iste voluptatem,
+                recusandae nemo velit unde earum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Molestiae modi quia praesentium
+                veritatis repellat, quibusdam ea possimus, natus suscipit
+                excepturi eveniet alias? Reprehenderit iste voluptatem,
+                recusandae nemo velit unde earum. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Molestiae modi quia praesentium
+                veritatis repellat, quibusdam ea possimus, natus suscipit
+                excepturi eveniet alias? Reprehenderit iste voluptatem,
+                recusandae nemo velit unde earum.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer text-muted text-center">
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card container my-3">
+        <div class="card-header text-center ">
+          <h1>Image Gallery</h1>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <!-- (.col-lg-3.col-md-4.col-sm-6>img.img-thumbnail[src='./images/products/$.jpg'])*15 -->
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/1.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/2.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/3.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/4.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/5.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/6.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/7.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/8.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/9.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/10.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/11.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/12.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/13.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/14.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+            <div class="col-lg-3 col-md-4 col-sm-6"><img src="./images/products/15.jpg" alt="img" class="img-thumbnail" style="height: 100%;"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid bg-primary text-white pt-4 pb-4">
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Quick Links</h3>
+              <nav class="navbar navbar-expand navbar-dark bg-primary">
+                  <ul class="nav navbar-nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="#" aria-current="page">Nav 1 <span class="visually-hidden">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Nav 2</a>
+                      </li>
+                  </ul>
+              </nav>
+            </div>
+            <div class="col">
+              <h3>New Letters</h3>
+              <form action="#">
+                <div class="mb-3">
+                  <label for="" class="form-label">Name</label>
+                  <input type="text"
+                    class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="mb-3">
+                  <div class="mb-3">
+                    <label for="" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com">
+                  </div>
+                </div>
+              </form>
+              <button class="btn btn-outline-light" type="submit">
+                <i class="bi bi-envelope"></i>
+                Subcribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contaier-fluid bg-primary text-white py-3 text-center bg-opacity-75">Copyright &copy; 2023</div>
+    </footer >
+    <!-- Bootstrap JavaScript Libraries -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
